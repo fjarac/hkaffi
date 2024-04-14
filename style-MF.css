@@ -4,15 +4,15 @@ html {
 }
 
   @font-face {
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
-    src: local('Inter.ttf'), url('Inter.ttf');
+    src: local(Inter.ttf), url(Inter.ttf);
 }
 
   @font-face {
-    font-family: 'Satisfy';
+    font-family: Satisfy;
     font-style: normal;
-    src: local("Satisfy.ttf"), url("Satisfy.ttf");
+    src: local(Satisfy.ttf), url(Satisfy.ttf);
 }
 
 body {
