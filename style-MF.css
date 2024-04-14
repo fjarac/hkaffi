@@ -242,33 +242,6 @@ a:hover.nav-link {
   padding-top:100px;
 }
 
-a.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 5px;
-  border-radius: 50%;
-}
-
-.social {
-  text-align: center;
-}
-
-a.fa:hover {
-    opacity: 0.7;
-}
-
-a.fa-facebook {
-  background: white;
-  color: black;
-}
-
-a.fa-instagram {
-  background: white;
-  color: black;
-}
 
 /* For screens larger than mobile */
 
