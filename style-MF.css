@@ -3,6 +3,18 @@ html {
   scroll-behavior: smooth;
 }
 
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    src: local('Inter.ttf'), url('Inter.ttf');
+}
+
+  @font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    src: local('Satisfy.ttf'), url('Satisfy.ttf');
+}
+
 body {
   margin: 0;
   font-family: Inter;
@@ -10,6 +22,8 @@ body {
   background-color: #0f0f0f;
   color:white;
 }
+
+
 
 a:link, a:visited {
   color: white;
@@ -185,7 +199,6 @@ a:hover.nav-link {
 
 
 /* Footer */
-
 
 .footer {
   background: #000;
