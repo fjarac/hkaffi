@@ -47,6 +47,10 @@ p {
   padding:0;
 }
 
+p.review {
+  text-align: center;
+}
+
 /* top photo & navigation bar */
 
 .top-bg {
