@@ -12,7 +12,7 @@ html {
   @font-face {
     font-family: 'Satisfy';
     font-style: normal;
-    src: local('Satisfy.ttf'), url('Satisfy.ttf');
+    src: local(Satisfy.ttf), url(Satisfy.ttf);
 }
 
 body {
