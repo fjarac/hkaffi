@@ -13,7 +13,7 @@ html {
   @font-face {
     font-family: Satisfy;
     font-style: normal;
-    src: local(Satisfys.ttf), url(Satisfy.ttf);
+    src: local(Satisfy.ttf), url(Satisfy.ttf);
     font-display: swap;
 }
 
@@ -80,7 +80,7 @@ p.review {
 .top-container {
   height:inherit;
   max-height:250px;
-  width:60%;
+  width:80%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -91,7 +91,7 @@ p.review {
 .first {
   text-align: center;
   font-family: "Satisfy", cursive;
-  font-size:8vw;
+  font-size:10vw;
   color:#ffffff;
 }
 
@@ -251,6 +251,12 @@ a:hover.nav-link {
   }
   .top-bg, .top-container {
     max-height: 500px;
+  }
+  .top-container {
+    width:60%;
+  }
+  .first {
+    font-size:8vw;
   }
   .menu-grid, .review-grid {
    grid-template-columns: 50% 50%;
