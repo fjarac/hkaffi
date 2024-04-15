@@ -70,7 +70,7 @@ p.review {
 /* top photo & navigation bar */
 
 .top-bg {
-  background-image:url(Assets/background.jpg);
+  background-image:url(Assets/bg-small.jpg);
   height:80vh;
   max-height: 250px;
   background-size: cover;
@@ -252,8 +252,12 @@ a:hover.nav-link {
   .nav-grid, .badge-grid{
    grid-template-columns: 25% 25% 25% 25%;
   }
-  .top-bg, .top-container {
+  .top-container {
     max-height: 500px;
+  }
+  .top-bg {
+  background-image:url(Assets/bg-large.jpg);
+    max-height:500px;
   }
   .top-container {
     width:100%;
