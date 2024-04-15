@@ -1,0 +1,290 @@
+html {
+  scroll-padding-top: 180px;
+  scroll-behavior: smooth;
+}
+
+  @font-face {
+    font-family: Inter;
+    font-style: normal;
+    src: local(Assets/Inter.ttf), url(Assets/Inter.ttf);
+    font-display: swap;
+}
+
+  @font-face {
+    font-family: Satisfy;
+    font-style: normal;
+    src: local(Assets/Satisfy.ttf), url(Assets/Satisfy.ttf);
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+  font-size: 12pt;
+  background-color: #0f0f0f;
+  color:white;
+}
+
+
+
+a:link, a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: blue;
+}
+
+h2  {
+  font-size:16pt;
+  text-transform: uppercase;
+  padding:10px;
+  text-align: center;
+  margin:10px;
+  letter-spacing: 3px;
+}
+
+h3  {
+  font-size:14pt;
+  font-weight: bold;
+  padding:1px;
+  text-align: center;
+  margin:1px;
+  letter-spacing: 1px;
+}
+
+hr {
+  opacity: 0;
+  height:20px;
+}
+
+p {
+  padding:0;
+}
+
+p.review {
+  text-align: center;
+}
+
+/* top photo & navigation bar */
+
+.top-bg {
+  background-image:url(Assets/background.jpg);
+  height:80vh;
+  max-height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.top-container {
+  height:inherit;
+  max-height:250px;
+  width:100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background:rgba(0, 0, 0, 0.6);
+}
+
+.first {
+  font-family: "Satisfy", cursive;
+  font-size:12vw;
+  color:#ffffff;
+  align-self: flex-end;
+  margin-bottom: -0.45em;
+}
+
+.nav {
+  background: #000;
+  color: #fff;
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  z-index: 1;
+  padding-top:20px;
+}
+
+.nav-grid {
+  text-align: center;
+  display: grid;
+  Grid-template-columns: 50% 50%;
+     row-gap: 15px;
+  width:60%;
+  margin:auto;
+  padding:10px;
+}
+
+a.nav-link {
+  font-size:14pt;
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a:hover.nav-link {
+ background: white;
+ color:black;
+ padding:3px 10px;
+ border-radius: 5px;
+}
+
+/* Main Content */
+
+.main {
+  width:90%;
+  margin:auto;
+}
+
+.content {
+  padding:0;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  z-index: 0;
+}
+
+.menu-image {
+  transition: all ease-in-out .2s;
+  width:250px;
+  opacity: 0.5;
+}
+
+.menu-image:hover {
+  opacity: 1;
+}
+
+.menu-image-wrapper {
+  justify-self: center;
+  padding: 4%;
+  position: relative;
+}
+
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  z-index: 0;
+}
+
+.badge-image {
+  transition: all ease-in-out .2s;
+  width:150px;
+  opacity: 0.5;
+}
+
+.badge-image:hover {
+  opacity: 1;
+}
+
+.badge-image-wrapper {
+  justify-self: center;
+  padding: 4%;
+  position: relative;
+}
+
+
+.review-grid {
+  display: grid;
+  Grid-template-columns: 100%;
+  width:95%;
+  margin:auto;
+}
+
+.review-content {
+  padding:10px 20px;
+}
+
+
+/* Footer */
+
+.footer {
+  background: #000;
+  width:100%;
+  height:250px;
+  margin-top:50px;
+  padding:50px 0px;
+  color: white;
+}
+
+.footer-grid {  
+  display:grid;
+    Grid-template-columns: 100%;
+    margin:auto;
+    width:90%;
+  }
+
+.f-con {
+  color: #fff;
+  text-align:center;
+  padding: 5px;
+}
+
+.f-con-op {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14pt;
+  padding: 5px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top:0px;
+}
+
+.sticky + .main {
+  padding-top:100px;
+}
+
+
+/* For screens larger than mobile */
+
+@media (min-width:650px) {
+  .nav-grid, .badge-grid{
+   grid-template-columns: 25% 25% 25% 25%;
+  }
+  .top-bg, .top-container {
+    max-height: 500px;
+  }
+  .top-container {
+    width:100%;
+  }
+  .first {
+    font-size:10vw;
+    margin-bottom:-0.45em;
+  }
+  .menu-grid, .review-grid {
+   grid-template-columns: 50% 50%;
+  }
+  .menu-image {
+    width:180px;
+  }
+  .footer-grid {
+   grid-template-columns: 33% 33% 33%;
+  }
+  .footer {
+  height:150px;
+  }
+  .main {
+    width:80%;
+  }
+}
+
+
+@media (min-width:1200px) {
+   .menu-grid {
+   grid-template-columns: 25% 25% 25% 25%;
+  }
+  .main {
+    max-width:960px;
+  }
+}
