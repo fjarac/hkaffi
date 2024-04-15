@@ -6,7 +6,7 @@ html {
   @font-face {
     font-family: Inter;
     font-style: normal;
-    src: local(/Assets/Inter.ttf), url(/Assets/Inter.ttf);
+    src: local(Assets/Inter.ttf), url(Assets/Inter.ttf);
     font-display: swap;
 }
 
