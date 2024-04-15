@@ -6,14 +6,14 @@ html {
   @font-face {
     font-family: Inter;
     font-style: normal;
-    src: local('.\Assets\Inter.ttf'), url('.\Assets\Inter.ttf');
+    src: local('Assets/Inter.ttf'), url('Assets/Inter.ttf');
     font-display: swap;
 }
 
   @font-face {
     font-family: Satisfy;
     font-style: normal;
-    src: local('.\Assets\Satisfy.ttf'), url('.\Assets\Satisfy.ttf');
+    src: local('Assets/Satisfy.ttf'), url('Assets/Satisfy.ttf');
     font-display: swap;
 }
 
@@ -70,7 +70,7 @@ p.review {
 /* top photo & navigation bar */
 
 .top-bg {
-  background-image:url('.\Assets\background.jpg');
+  background-image:url('Assets/background.jpg');
   height:80vh;
   max-height: 250px;
   background-size: cover;
