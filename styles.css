@@ -120,19 +120,16 @@ p.review {
 
 
 a.nav-link {
-  font-size:14pt;
+  font-size:12pt;
   text-decoration: none;
-  color:black;
   text-transform: uppercase;
   letter-spacing: 3px;
-  background: white;
-  padding:3px 7px 3px 10px;
+  padding:3px 6px 3px 10px;
 }
 
 a:hover.nav-link {
- background: transparent;
- border:solid white 1px;
- color:white;
+ background: white;
+ color:black;
 }
 
 /* Main Content */
