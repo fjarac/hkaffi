@@ -244,6 +244,20 @@ a:hover.nav-link {
   padding-top:100px;
 }
 
+a.social {
+  text-decoration:none;
+  border:0;
+  width:40px;
+  height:40px;
+  padding:2px;
+  margin:10px;
+  color:#000000;
+  border-radius:50%;
+  background-color:#ffffff;
+}
+a:hover.social {
+  background-color:rgba(255, 255, 255, 0.4);
+}
 
 /* For screens larger than mobile */
 
